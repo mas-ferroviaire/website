@@ -1,0 +1,58 @@
+:root {
+  --bluemas: rgb(18,112,183);
+  --darkbluemas: rgb(18, 115, 187);
+  --lightgreymas: #ffffff6cda;
+  --greymas: rgb(88, 86, 86);
+}
+
+* {
+  color: var(--fontColor);
+  font-family: "Open Sans";  
+  /* font-size:20px; */
+}
+
+body {
+  background: var(--bg);
+}
+
+header {
+  background: var(--bg);
+  color: var(--fontColor);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p { text-align: center }
+h1 { text-align: center }
+h2 { 
+  margin-left: auto;
+  margin-right: auto;
+  width: 35em;
+  text-align: left }
+dl { text-align: left }
+article.blocktext {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em
+}
+ul {
+  list-style: none;
+}
+
+footer {
+  font-size: small;
+  background: var(--bg);
+  color: var(--fontColor);
+}
+
+.light-theme {
+  --bg: var(--greymas);
+  --fontColor: white;
+}
+.dark-theme {
+  --bg: var(--lightgreymas);
+  --fontColor: var(--darkbluemas);
+}
